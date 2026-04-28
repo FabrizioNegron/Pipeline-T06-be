@@ -40,3 +40,5 @@ jobs:
           tags: |
             ${{ secrets.DOCKERHUB_USERNAME_FABRIZIO }}/webflux-nosql:latest
             ${{ secrets.DOCKERHUB_USERNAME_FABRIZIO }}/webflux-nosql:${{ github.sha }}
+
+      # 4. Logout de Docker Hub
