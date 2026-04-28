@@ -35,7 +35,7 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           context: .
-          dockerfile: Dockerfile
+          dockerfile: ./Dockerfile-fabrizio/Dockerfile
           push: true
           tags: |
             ${{ secrets.DOCKERHUB_USERNAME_FABRIZIO }}/webflux-nosql:latest
